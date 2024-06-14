@@ -1,5 +1,5 @@
 /* Psuedocode:
-Are you hungry (Y/N) ? 
+Are you hungry (Y/N) ?
 If no, wait until you're hungry.
 If yes, what will you eat for lunch?
 That depends; how much time do you have?
@@ -8,7 +8,7 @@ That depends; how much time do you have?
 > 30, reconsider.
 */
 
-const whatToDoForLunch = function (hungry, availableTime) {
+const whatToDoForLunch = function(hungry, availableTime) {
   console.log("I don't know what to do!");
   console.log("hungry is", hungry);
   console.log("availableTime is", availableTime);
@@ -27,7 +27,7 @@ const whatToDoForLunch = function (hungry, availableTime) {
     }
   }
 
-}
+};
 console.log("I'm hungry and I have 20 minutes for lunch.");
 whatToDoForLunch(true, 20);
 console.log("-----");
